@@ -45,7 +45,7 @@ echo -e "[${Green}${wifiInterface}${White}] Enabled!"
 fi
 }
 
-banner () {        ##### Banner #####
+banner () {        #### Banner ####
 echo -e "${Red}
 █    ██   ▄▄▄▄▄▄ ▀▄    ▄ ██   ▄█ █▄▄▄▄ ▄█▄    █▄▄▄▄ ██   ▄█▄    █  █▀ 
 █    █ █ ▀   ▄▄▀   █  █  █ █  ██ █  ▄▀ █▀ ▀▄  █  ▄▀ █ █  █▀ ▀▄  █▄█   
