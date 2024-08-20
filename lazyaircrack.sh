@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Red="\e[1;91m"      ##### Colors Used #####
+Red="\e[1;91m"      ###### Colors Used ######
 Green="\e[0;92m"
 Yellow="\e[0;93m"
 Blue="\e[1;94m"
