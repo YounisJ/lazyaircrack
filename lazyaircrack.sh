@@ -21,8 +21,8 @@ clear
 
 checkDependencies () {        ##### Check if aircrack-ng is installed or not #####
 if [ $(dpkg-query -W -f='${Status}' aircrack-ng 2>/dev/null | grep -c "ok installed") -eq 0 ]; then
-echo -e "[${Red}Status${White}] Found missing dependencies..."
-echo -e "[${Green}Status${White}] Installing aircrack-ng...\n"
+echo -e "[${Red}Status${White}] Found missing dependencies.."
+echo -e "[${Green}Status${White}] Installing aircrack-ng..\n"
 apt-get install aircrack-ng -y
 fi
 }
